@@ -1,2 +1,46 @@
 # gp_2424_p2
 p2_imatge + audio + video
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>práctica 2</title>
+</head>
+<body>
+    <h1>p2_Imagenes + video + audio</h1>
+    <section>
+        <h2>Imagenes</h2>
+        <h3>gif </h3>
+        <img src="img/brooklyn 99.gif" alt="brooklyn 99">
+        <h3>jpg</h3>
+        <img src="img/descarga (21).jpeg" alt="Anquilosaurio">
+        <h3>png</h3>
+        <img src="img/my litle pony.png" alt="my llitle pony">
+
+    </section>
+    <section>
+        <h2>audio</h2>
+        <h3>mp3</h3>
+        <audio controls autoplay muted>
+            <source src="sound/keyboard-typing-139083.mp3" type="audio/mp3" ></audio>
+        <h3>mp3 </h3>
+        <audio controls autoplay muted>
+            <source src="sound/laughing-male-mp3-sound-149840.mp3" type="audio/mp3">
+            <h3>Ogg </h3>
+            <audio controls autoplay muted>
+                <source src="sound/Small explosion.ogg" type="audio/ogg">
+        
+    </section>
+    <section>
+        <h2>video</h2>
+        <h3> mp4</h3>
+        <video controls>
+        <source src="Video/Jack Daniel’s Old No. 7.mp4" type="Video/mp4" ></video>
+        </video>
+        <h3>youtube </h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N-obM9XvysA?si=uNF-5C7SWVVJfrvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+    </section>
+</body>
+</html>
